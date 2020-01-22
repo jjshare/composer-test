@@ -1,0 +1,19 @@
+{
+    "name": "jjshare/composer-test",
+    "description": "composer test",
+    "type": "library",
+    "license": "mit",
+    "authors": [
+        {
+            "name": "jiang ming",
+            "email": "jmone2006@126.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "ComposerTest\\": "src/"
+        }
+    }
+}
